@@ -20,7 +20,7 @@ FAILED_URLS_CSV = "failed_urls.csv"
 # 这里可以设置环境变量配置apikey，官网推荐这样做，但是这里我直接指定为我自己的apikey了
 XAI_API_KEY = os.getenv("XAI_API_KEY")
 client = OpenAI(
-    api_key="xai-jB7x8OhQkpKShnc7PfXIy2lVCtnbAeCnJJyURgSuzwaxLc8jxAw4ITpoxwMGpbigog6EH1KgYLzvFfI1",
+    api_key="xai-xxx",
     base_url="https://api.x.ai/v1",
 )
 
